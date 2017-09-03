@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timetable.FirstController">
+    <stylesheets>
+        <URL value="@first.css" />
+    </stylesheets>
+   <children>
+      <ComboBox fx:id="what" layoutX="235.0" layoutY="216.0" prefHeight="51.0" prefWidth="251.0" promptText="Select " AnchorPane.bottomAnchor="133.0" AnchorPane.leftAnchor="235.0" AnchorPane.rightAnchor="234.0" AnchorPane.topAnchor="216.0" />
+      <Label contentDisplay="CENTER" graphicTextGap="10.0" layoutY="-9.0" lineSpacing="5.0" prefHeight="189.0" prefWidth="630.0" text="IIIT ALLAHABAD TIME-TABLE MANAGEMENT SYSTEM" textAlignment="RIGHT" textFill="#9e3232" textOverrun="CENTER_ELLIPSIS" wrapText="true" AnchorPane.bottomAnchor="220.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-30.0" AnchorPane.topAnchor="-9.0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <JFXButton fx:id="okbtn" layoutX="263.0" layoutY="310.0" text="OK" />
+   </children>
+</AnchorPane>
